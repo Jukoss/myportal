@@ -1,0 +1,100 @@
+@font-face {
+	font-family: font_friends;
+	src: url(../font/FRIENDS_.TTF);
+}
+.down {
+	background: url('../img/friends.jpg') no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+
+
+}
+.down2 {
+	background: url('../img/chandler.jpg') no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+
+}
+
+.down3 {
+	background: url('../img/rachel.jpg') no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+
+}
+
+.down4 {
+	background: url('../img/monica.jpg') no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+
+}
+
+.down5 {
+	background: url('../img/jo.jpg') no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+
+}
+
+.down6 {
+	background: url('../img/phoebe.jpg') no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+
+}
+.down7 {
+	background: url('../img/ross.jpg') no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+
+}
+.down8 {
+	background: url('../img/final1.jpg') no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+.up {
+	width: 100%;
+	text-align: center;	
+	margin: 0 auto;
+	margin-top: -2%;
+	background-color: white;
+}
+
+img {
+	width: 100%;
+
+}
+
+.text {
+	margin-left: 25%;
+	margin-right: 25%;
+	}
+
+h1 {
+	font-family: font_friends;
+	margin-top: 0;	
+	font-size: 2em;
+	color: #8579a7;
+}
+
+h2 {
+	font-family: font_friends;
+	margin-top: 0;	
+	font-size: 1em;
+	color: gray;
+}
+
+h3 {
+	font-family: sans-serif;	
+	font-size: 2em;
+	color: #fff;
+	clear: both;
+}
+
+.contact {
+	text-align: center;
+	padding-bottom: 2%;
+
+}
