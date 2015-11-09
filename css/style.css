@@ -2,70 +2,67 @@
 	font-family: font_friends;
 	src: url(../font/FRIENDS_.TTF);
 }
-.down {
+
+
+.img1 {
 	background: url('../img/friends.jpg') no-repeat;
-    background-attachment: fixed;
-    background-size: 100%;
-
-
-}
-.down2 {
-	background: url('../img/chandler.jpg') no-repeat;
-    background-attachment: fixed;
-    background-size: 100%;
-
-}
-
-.down3 {
-	background: url('../img/rachel.jpg') no-repeat;
-    background-attachment: fixed;
-    background-size: 100%;
-
-}
-
-.down4 {
-	background: url('../img/monica.jpg') no-repeat;
-    background-attachment: fixed;
-    background-size: 100%;
-
-}
-
-.down5 {
-	background: url('../img/jo.jpg') no-repeat;
-    background-attachment: fixed;
-    background-size: 100%;
-
-}
-
-.down6 {
-	background: url('../img/phoebe.jpg') no-repeat;
-    background-attachment: fixed;
-    background-size: 100%;
-
-}
-.down7 {
-	background: url('../img/ross.jpg') no-repeat;
-    background-attachment: fixed;
-    background-size: 100%;
-
-}
-.down8 {
-	background: url('../img/final1.jpg') no-repeat;
-    background-attachment: fixed;
+	background-attachment: fixed;
     background-size: 100%;
 }
+
+.img2 {
+	background: url('../img/chandler.jpg') no-repeat center;
+}
+
+.img3 {
+	background: url('../img/rachel.jpg') no-repeat center;
+}
+
+.img4 {
+	background: url('../img/monica.jpg') no-repeat center;
+}
+
+.img5 {
+	background: url('../img/jo.jpg') no-repeat center;
+}
+
+.img6 {
+	background: url('../img/phoebe.jpg') no-repeat center;
+}
+
+.img7 {
+	background: url('../img/ross.jpg') no-repeat center;
+}
+
+.img8 {
+	background: url('../img/final1.jpg') no-repeat center;
+	background-attachment: fixed;
+    background-size: 100%;
+}
+
+.down {
+    background-attachment: fixed;
+   	background-size: cover;
+   		-webkin-background-size: cover;
+		-moz-background-size: cover;
+}
+
 .up {
 	width: 100%;
 	text-align: center;	
 	margin: 0 auto;
-	margin-top: -2%;
+	margin-top: -1%;
 	background-color: white;
 }
 
 img {
+	margin-top: -1%;
 	width: 100%;
-
+	height: auto;
 }
+.img_final {
+		margin-top: -2%;
+	}
 
 .text {
 	margin-left: 25%;
@@ -97,4 +94,67 @@ h3 {
 	text-align: center;
 	padding-bottom: 2%;
 
+}
+
+
+@media screen and (max-width: 768px) {   
+
+
+	.img2 {
+		background: url('../img/chandler768.jpg') no-repeat center;
+	}
+
+	.img3 {
+		background: url('../img/rachel768.jpg') no-repeat center;
+	}
+
+	.img4 {
+		background: url('../img/monica768.jpg') no-repeat center;
+	}
+
+	.img5 {
+		background: url('../img/jo768.jpg') no-repeat center;
+	}
+
+	.img6 {
+		background: url('../img/phoebe768.jpg') no-repeat center;
+	}
+
+	.img7 {
+		background: url('../img/ross768.jpg') no-repeat center;
+	}
+
+	.img8 {
+		background: url('../img/final1768.jpg') no-repeat center;
+	}
+
+	.down {
+	    background-attachment: fixed;
+	   	background-size: cover;
+	   		-webkin-background-size: cover;
+			-moz-background-size: cover;
+	}
+
+	.up {
+		width: 100%;
+		text-align: center;	
+		margin: 0 auto;
+		margin-top: -2%;
+		background-color: white;
+	}
+
+	img {
+		margin-top: -2%;
+		width: 100%;
+		height: auto;
+	}
+
+	.img_final {
+		margin-top: -5%;
+	}
+
+	.text {
+		margin-left: 5%;
+		margin-right: 5%;
+		}
 }
